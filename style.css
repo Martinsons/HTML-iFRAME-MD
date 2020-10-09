@@ -10,19 +10,19 @@ html {
   margin: 0 auto;
 }
 
-img{
+img {
   max-width: 100%;
   width: 100%;
   height: 100%;
 }
 
-.img{
+.img {
   width: 100%;
   height: 360px;
   padding: 0;
 }
 
-.clases{
+.clases {
   display: flex;
   margin: 20px;
 }
@@ -32,38 +32,88 @@ a {
   color: #333;
 }
 
-.a-link{
+.a-link {
   border: 1px solid #fff;
   padding: 10px;
   background-color: darkturquoise;
 }
 
-.a-link:hover{
+.a-link:hover {
   background-color: deepskyblue;
 }
 
-.a-link__sub:hover{
+.a-link__sub:hover {
   color: navy;
 }
 
-.hide{
+.hide {
   border: none;
+  background-color: white;
 }
 
 /* Table style */
-table, th, tr, td {
+table,
+th,
+tr,
+td {
   border: 1px solid #333;
   border-collapse: collapse;
 }
 
-th, td{
+th,
+td {
   padding: 5px;
 }
 
-table{
+table {
   width: 100%;
 }
 
 tr {
   text-align: center;
+}
+
+/* Pievienotie stili */
+
+#d1,
+#d2,
+#d3,
+#d4,
+#d5 {
+  background-color: white;
+}
+
+#today{
+  text-align: center;
+}
+
+#time {
+  text-align: center;
+  margin: 0;
+}
+
+tr:nth-child(even) {
+  background-color: #d1f2eb;
+}
+
+tr:nth-child(even):hover {
+  background-color: #d0ece7;
+}
+
+
+tr:nth-child(odd){
+  background-color: #a3e4d7;
+}
+
+tr:nth-child(odd):hover{
+  background-color: #a2d9ce;
+}
+
+.home:hover {
+  border-bottom: 2px solid black;
+  width: 10%;
+}
+
+.home{
+  border-bottom: 2px solid white;
 }

@@ -8,11 +8,13 @@
   <title>Skolas grafiks</title>
 </head>
 
-<body>
+<body onload="startTime()">
 
   <iframe src="skola.html" name="iframe" height="450px" width="100%" frameborder="0"></iframe>
 
   <div class="container">
+
+    <p id="today"></p>
 
     <div class="clases">
       <p><a href="1klase.html" class="a-link" target="iframe">1. klase</a></p>
@@ -21,6 +23,11 @@
     </div>
   </div>
 
+
+
+
+
+  <script src="app.js"></script>
 </body>
 
 </html>

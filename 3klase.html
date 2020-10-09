@@ -8,20 +8,25 @@
   <title>3. klase</title>
 </head>
 
-<body>
+<body onload="startTime()">
 
   <div class="container">
 
-    <a href="skola.html" class="a-link__sub"><h1>Sākums</h1></a>
+    <p id="today"></p>
+    <p id="time"></p>
+
+    <a href="skola.html" class="a-link__sub">
+      <h1 class="home">Sākums</h1>
+    </a>
 
     <table>
       <tr>
         <th class="hide"></th>
-        <th>Pirmdiena</th>
-        <th>Otrdiena</th>
-        <th>Trešdiena</th>
-        <th>Ceturdiena</th>
-        <th>Piektdiena</th>
+        <th id="d1">Pirmdiena</th>
+        <th id="d2">Otrdiena</th>
+        <th id="d3">Trešdiena</th>
+        <th id="d4">Ceturdiena</th>
+        <th id="d5">Piektdiena</th>
       </tr>
       <tr>
         <td>8:00 - 8:40</td>
@@ -87,7 +92,7 @@
         <td>Matemātika</td>
         <td>Matemātika</td>
       </tr>
-      
+
     </table>
 
   </div>
@@ -100,6 +105,9 @@
         <td>11:20 - 12:00</td>
         <td>12:30 - 13:10</td>
         <td>13:10 - 13:50</td> -->
+
+
+  <script src="app.js"></script>
 </body>
 
 </html>
